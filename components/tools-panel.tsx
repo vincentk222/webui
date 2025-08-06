@@ -6,7 +6,6 @@ import FunctionsView from "./functions-view";
 import McpConfig from "./mcp-config";
 import PanelConfig from "./panel-config";
 import useToolsStore from "@/stores/useToolsStore";
-import PdfViewer from "./pdf-viewer";
 
 export default function ContextPanel() {
   const {
@@ -62,7 +61,6 @@ export default function ContextPanel() {
         >
           <McpConfig />
         </PanelConfig>
-        <PdfViewer />
       </div>
     </div>
   );
